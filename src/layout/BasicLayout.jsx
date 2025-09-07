@@ -1,10 +1,9 @@
 import React from 'react';
-import Home from '../pages/Home/Home';
 
 const BasicLayout = () => {
     return (
         <div>
-          <Home></Home>  
+           <Home></Home> 
         </div>
     );
 };
