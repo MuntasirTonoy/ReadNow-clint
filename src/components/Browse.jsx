@@ -8,7 +8,7 @@ const Browse = () => {
     { id: 1, title: "The Great Gatsby", author: "F. Scott Fitzgerald", category: "Novel", price: 5, cover: "https://picsum.photos/200/300?1" },
     { id: 2, title: "A Brief History of Time", author: "Stephen Hawking", category: "Science", price: 7, cover: "https://picsum.photos/200/300?2" },
     { id: 3, title: "Sapiens", author: "Yuval Noah Harari", category: "History", price: 6, cover: "https://picsum.photos/200/300?3" },
-    { id: 4, title: "Clean Code", author: "Robert C. Martin", category: "Technology", price: 10, cover: "https://picsum.photos/200/300?4" },
+    { id: 4, title: "Clean Code", author: "Robert B. Martin", category: "Technology", price: 10, cover: "https://picsum.photos/200/300?4" },
     { id: 5, title: "1984", author: "George Orwell", category: "Novel", price: 4, cover: "https://picsum.photos/200/300?5" },
     { id: 6, title: "The Selfish Gene", author: "Richard Dawkins", category: "Science", price: 8, cover: "https://picsum.photos/200/300?6" },
   ];
