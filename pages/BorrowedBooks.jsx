@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const BorrowedBooks = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div>
+      <h1>do ir</h1>
+    </div>
+  );
 };
 
 export default BorrowedBooks;
