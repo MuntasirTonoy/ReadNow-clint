@@ -34,7 +34,7 @@ const Sidebar = () => {
             <ul className="menu menu-horizontal">
               {/* Navbar menu content here */}
               <li>
-                <a>Navbar Item 1</a>
+                <a>Navbar 2 </a>
               </li>
               <li>
                 <a>Navbar Item 2</a>
