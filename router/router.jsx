@@ -1,9 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
-import BasicLayout from "../layout/BasicLayout";
-import Home from "../pages/Home/Home";
-import DashboardLayout from "../layout/DashboardLayout";
-import DashboardHome from "../components/dashboard/DashboardHome";
+import BasicLayout from "../src/layout/BasicLayout";
 
 export const router = createBrowserRouter([
   {

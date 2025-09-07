@@ -1,11 +1,11 @@
 import React from 'react';
 
-const DashboardCard = () => {
+const BasicLayout = () => {
     return (
         <div>
-            
+           <Home></Home> 
         </div>
     );
 };
 
-export default DashboardCard;
+export default BasicLayout;
