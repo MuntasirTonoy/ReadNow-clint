@@ -26,7 +26,7 @@ const Browse = () => {
   });
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-10">
+    <div className="max-w-7xl mx-auto px-4 py-24 md:py-36">
       <h1 className="text-3xl font-bold mb-6 text-center">Browse Books</h1>
 
       {/* Search & Filter */}

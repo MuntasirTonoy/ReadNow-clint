@@ -32,15 +32,7 @@ const Sidebar = () => {
           </div>
           <div className="mx-2 flex-1 px-2">Navbar Title</div>
           <div className="hidden flex-none lg:block">
-            <ul className="menu menu-horizontal">
-              {/* Navbar menu content here */}
-              {/* <li>
-                <a>Navbar Item 1</a>
-              </li>
-              <li>
-                <a>Navbar Item 2</a>
-              </li> */}
-            </ul>
+            <ul className="menu menu-horizontal"></ul>
           </div>
         </div>
         {/* Page content here */}
