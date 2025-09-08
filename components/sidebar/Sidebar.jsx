@@ -1,13 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router";
+import Admin from "./Admin";
 
 const Sidebar = () => {
   return (
-    <div className="drawer">
+    <div className="drawer lg:drawer-open">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="navbar bg-base-300 w-full">
+        <div className="navbar bg-base-300 w-full lg:hidden">
           <div className="flex-none lg:hidden">
             <label
               htmlFor="my-drawer-3"
@@ -31,15 +32,7 @@ const Sidebar = () => {
           </div>
           <div className="mx-2 flex-1 px-2">Navbar Title</div>
           <div className="hidden flex-none lg:block">
-            <ul className="menu menu-horizontal">
-              {/* Navbar menu content here */}
-              <li>
-                <a>Navbar Item 1</a>
-              </li>
-              <li>
-                <a>Navbar Item 2</a>
-              </li>
-            </ul>
+            <ul className="menu menu-horizontal"></ul>
           </div>
         </div>
         {/* Page content here */}
@@ -55,12 +48,7 @@ const Sidebar = () => {
         ></label>
         <ul className="menu bg-base-200 min-h-full w-80 p-4">
           {/* Sidebar content here */}
-          <li>
-            <a>Sidebar Item 1</a>
-          </li>
-          <li>
-            <a>Sidebar Item 2</a>
-          </li>
+          <Admin />
         </ul>
       </div>
     </div>
