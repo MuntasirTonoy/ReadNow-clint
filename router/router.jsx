@@ -5,6 +5,7 @@ import Home from "../src/pages/Home";
 import Browse from "../src/components/Browse";
 import DashboardHome from "../components/dashboard/DashboardHome";
 import BookDetails from "../src/pages/BookDetails";
+import DashboardLayout from "../layout/DashboardLayout";
 
 export const router = createBrowserRouter([
   {
