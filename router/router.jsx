@@ -5,7 +5,7 @@ import Home from "../src/pages/Home";
 import Browse from "../src/components/Browse";
 import DashboardHome from "../components/dashboard/DashboardHome";
 import BookDetails from "../src/pages/BookDetails";
-import DashboardLayout from "../layout/DashboardLayout";
+import Login from "../components/login/login";
 
 export const router = createBrowserRouter([
   {
@@ -17,6 +17,7 @@ export const router = createBrowserRouter([
         Component: Home,
       },
       { path: "/browse", Component: Browse },
+      { path: "/login", Component: Login },
       {
         path: "/book/:id",
         Component: BookDetails,
